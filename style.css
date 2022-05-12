@@ -1,0 +1,159 @@
+/*Reseting*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+/*! HEADER */
+
+header.header {
+  padding: 15px;
+  line-height: 35px;
+}
+
+.header__left {
+  float: left;
+}
+.header__right {
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  color: rgb(76, 87, 98);
+  padding: 0.5rem;
+}
+
+.header__right--appicon {
+  vertical-align: middle;
+  width: 25px;
+  opacity: 0.7;
+}
+
+.header__right--button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  width: 90px;
+  height: 30px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.header__right--button:hover {
+  box-shadow: 3px 3px 3px #babcbe;
+  cursor: pointer;
+  background-color: #3f82ed;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/*! MAIN */
+
+.main {
+  margin-top: 200px;
+  text-align: center;
+}
+.main__logo {
+  width: 272px;
+  height: 92px;
+}
+.main__search-bar {
+  margin: auto;
+  border: 1px solid #babcbe;
+  width: 455px;
+  height: 39px;
+  border-radius: 20px;
+}
+.main__search-bar--input {
+  width: 370px;
+  font-size: 13px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  margin-top: 3px;
+}
+.main__search-bar--magnifier {
+  width: 28px;
+  vertical-align: middle;
+}
+.main__search-bar--mic {
+  width: 15px;
+  vertical-align: middle;
+}
+
+.main__buttons {
+  vertical-align: middle;
+}
+.main__buttons--right {
+  width: 146px;
+  /* height: 36px; */
+  border: none;
+  background-color: #f3f6f8;
+  border-radius: 4px;
+  margin: 30px 10px;
+  padding: 10px 0;
+  color: rgb(61, 69, 78);
+}
+.main__buttons--left {
+  width: 146px;
+  /* height: 36px; */
+  border: none;
+  background-color: #f3f6f8;
+  border-radius: 4px;
+  margin: 30px 0;
+  padding: 10px 0;
+  color: rgb(61, 69, 78);
+}
+
+.main__buttons--left:hover {
+  border: 1px solid #d3d3d3;
+  box-shadow: rgb(230, 230, 230) 1px 1px 10px;
+}
+.main__buttons--right:hover {
+  border: 1px solid #d3d3d3;
+  box-shadow: rgb(230, 230, 230) 1px 1px 10px;
+}
+
+.main__language a:hover {
+  text-decoration: underline;
+}
+/*! FOOTER */
+
+.footer {
+  color: rgb(76, 87, 98);
+  position: fixed;
+  bottom: 0;
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 10px;
+}
+
+.footer__country {
+  font-size: 13px;
+  padding-left: 55px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(202, 208, 216);
+}
+
+.footer__bottom--left {
+  float: left;
+}
+.footer__bottom--right {
+  float: right;
+}
+.footer__bottom {
+  color: slategray;
+
+  padding: 10px;
+}
